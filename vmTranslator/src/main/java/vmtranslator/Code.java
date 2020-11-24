@@ -139,6 +139,7 @@ public class Code {
             } else if (segment.equals("local")) {
 
             } else if (segment.equals("argument")) {
+<<<<<<< HEAD
                 commands.add( "leaw $"+String.valueOf(index)+",%A" );
                 commands.add( "movw %A,%D" );
                 commands.add( "leaw $ARG,%A");
@@ -151,6 +152,8 @@ public class Code {
                 commands.add( "movw (%A),%D" );
                 commands.add( "incw %D" );
                 commands.add( "movw %D,(%A)" );
+=======
+>>>>>>> master
 
             } else if (segment.equals("this")) {
 
